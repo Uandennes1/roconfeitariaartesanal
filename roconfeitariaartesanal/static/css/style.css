@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: "Roboto", Arial, sans-serif;
+    background-color: rgba(255, 192, 203, 0.5);
+}
+
+h1{
+    margin: 20px
+}
+
+.titulo{
+    color:red
+}
+
+.paragrafo{
+    color:blue
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.img-style{
+    width: 300px;
+    border-radius: 30px;
+}
+
+.caixa-textos{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.caixa-titulo{
+    color: #0f0f0f;
+    font-weight: 700;
+    margin: 6px 2px 2px 2px;
+    height: 30px;
+}
+
+.caixa-texto{
+    color: #606060;
+}
+
+.caixa-produto{
+    width: 280px;
+    margin: 15px;
+}
+
+.caixa-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 40px;
+    align-items: center;
+
+}
+
+.bg-imagem{
+    width: 100%;
+    top: 50vh;
+    border: 2px;
+}
+
+.carousel-style{
+    width: 750px;
+    border-radius: 30px;
+}
